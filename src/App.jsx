@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import img1 from "../src/assets/example1.jpg"
+import img2 from "../src/assets/example2.jpg"
+import img3 from "../src/assets/example3.jpg"
+import img4 from "../src/assets/example4.jpg"
+import img5 from "../src/assets/example5.jpg"
 
 const stages = [
   {
@@ -12,7 +17,7 @@ const stages = [
       "The pace is set by the reader, not the content. You can go back, reflect, and connect this book to other things you’ve read.",
     postman:
       "Postman believed print culture supported deep, rational public debate because it rewarded patience, logic, and attention.",
-    image: "../src/assets/example1.jpg",
+    image: img1,
     imageAlt: "old advertisement"
   },
   {
@@ -26,7 +31,7 @@ const stages = [
       "Some nuance is cut for time and clarity. The focus shifts a bit toward performance: tone of voice, presence, and visuals.",
     postman:
       "The idea still can be serious, but it now has to fit a time slot and keep an audience’s attention in real time.",
-    image: "../src/assets/example2.jpg",
+    image: img2,
     imageAlt: "Speaker presenting in front of a projected slide"
   },
   {
@@ -40,7 +45,7 @@ const stages = [
       "The story is compressed into soundbites. Emotional reactions and visuals start to matter more than careful reasoning.",
     postman:
       "Postman argued that TV news turns even tragedies into just another interesting thing to watch before the next commercial.",
-    image: "../src/assets/example3.jpg",
+    image: img3,
     imageAlt: "News anchor at a desk with breaking news graphics"
   },
   {
@@ -54,7 +59,7 @@ const stages = [
       "Winning the moment matters more than explaining a position. Complexity is punished; quick comebacks are rewarded.",
     postman:
       "In this format, politics looks less like decision-making and more like sports or reality TV. The image of the person beats the content of their ideas.",
-    image: "../src/assets/example4.jpg",
+    image: img4,
     imageAlt: "Split-screen TV debate with two people arguing"
   },
   {
@@ -68,7 +73,7 @@ const stages = [
       "There’s no room for context, history, or careful argument. What matters is: Is it funny? Relatable? Shareable?",
     postman:
       "At this point, the original idea is almost gone. What survives is entertainment value — the thing Postman warned about when he said we might amuse ourselves to death.",
-    image: "../src/assets/example5.jpeg",
+    image: img5,
     imageAlt: "Phone screen showing a short-form video feed"
   }
 ];
