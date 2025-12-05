@@ -3,7 +3,7 @@ import img1 from "../src/assets/example1.jpg"
 import img2 from "../src/assets/example2.jpg"
 import img3 from "../src/assets/example3.jpg"
 import img4 from "../src/assets/example4.jpg"
-import img5 from "../src/assets/example5.jpg"
+import img5 from "../src/assets/example5.jpeg"
 
 const stages = [
   {
